@@ -5,6 +5,10 @@ html, body {
 
 
 /*===NAVBAR===*/
+
+nav {
+    box-shadow: 0 2px 2px 0 black;
+}
 a.navbar-brand img.d-inline-block {
     height: 5rem;
 }
@@ -21,6 +25,7 @@ a.nav-link.action:hover {
 
 #carousel {
     position: relative;
+    box-shadow: 0 0 5px 2px black;
 }
 
 .carousel-item:before {
@@ -31,6 +36,10 @@ a.nav-link.action:hover {
   left:0;
   right:0;
   background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+}
+
+.carousel-caption {
+    margin-bottom: 10%;
 }
 
 a.btn.btn-outline-info {
@@ -63,6 +72,10 @@ a.btn.btn-success:hover {
     background-color: #1c9db2;
 }
 
+div.card {
+    box-shadow: 1px 1px 1px 1px lightgray;
+}
+
 .card-text {
     font-size: 1.2vmax;
 }
@@ -73,6 +86,10 @@ a.btn.btn-success:hover {
     display: block;
     position: relative;
     top: -100px;
+}
+
+.row.date {
+    box-shadow: 0px 2px 5px 3px lightgray;
 }
 
 .date-info {
@@ -92,11 +109,17 @@ a.btn.btn-success:hover {
 }
 
 .form-floating {
+    position: relative;
     color:#80868f!important;
     font-size: 1vm;
 }
 
-.form-floating > textarea {
+#floatingTextBox {
+    padding-top: 3vmax;
+    font-size: 1.3vmax;
+}
+
+.form-floating > textarea.form-control {
     font-size: 0.9vmax;
 }
 
@@ -111,4 +134,11 @@ a.btn.btn-success:hover {
 /*===FOOTER===*/
 footer {
     background-image: linear-gradient(to right, #1a3644, #1c5372);
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.btn.btn-outline-light, .btn.btn-outline-light:hover, :focus, :active {
+    background-color: transparent!important;
+    border: none!important;
+    box-shadow: none!important;
 }
