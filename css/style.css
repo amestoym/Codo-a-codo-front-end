@@ -1,0 +1,123 @@
+/*===BASE===*/
+html, body {
+    overflow-x: hidden!important;
+}
+
+
+/*===NAVBAR===*/
+a.navbar-brand img.d-inline-block {
+    height: 5rem;
+}
+
+a.nav-link.action {
+    color: #1db641!important;
+}
+
+a.nav-link.action:hover {
+    color: rgb(83, 216, 83)!important;
+}
+
+/*===CAROUSEL===*/
+
+#carousel {
+    position: relative;
+}
+
+.carousel-item:before {
+    content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+}
+
+a.btn.btn-outline-info {
+    color: white!important;
+    border-color: white!important;
+}
+
+a.btn.btn-outline-info:hover {
+    background-color: black!important;
+    border-color: white!important;
+}
+
+a.btn.btn-success {
+    background-color: #1db641!important;
+}
+
+a.btn.btn-success:hover {
+    background-color: rgb(0, 128, 11)!important;
+}
+
+/*==ROW PARTICIPANTS==*/
+
+#participants {
+    display: block;
+    position: relative;
+    top: -105px;
+}
+
+.badge.bg-react {
+    background-color: #1c9db2;
+}
+
+.card-text {
+    font-size: 1.2vmax;
+}
+
+/*===ROW DATE===*/
+
+#date {
+    display: block;
+    position: relative;
+    top: -100px;
+}
+
+.date-info {
+    font-size: 1.1vmax;
+    text-align: left;
+}
+
+/*===ROW FORM===*/
+
+#form {
+    display: block;
+    position: relative;
+}
+
+.btn.btn-send {
+    background-color: #96c93e;
+}
+
+.form-floating {
+    color:#80868f!important;
+    font-size: 1vm;
+}
+
+.form-floating > textarea {
+    font-size: 0.9vmax;
+}
+
+.form-floating:nth-child(2) > label:nth-child(2) {
+    font-size: 2vmax;
+}
+
+#commentHelpBlock {
+    font-size: 0.7rem;
+}
+
+/*===FOOTER===*/
+footer {
+    background-image: linear-gradient(to right, #1a3644, #1c5372);
+}
+
+.btn.btn-outline-light {
+    border: 0;
+}
+
+.btn.btn-outline-light:hover {
+    border: 0;
+    background-color: inherit;
+}
