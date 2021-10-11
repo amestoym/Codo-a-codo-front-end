@@ -137,7 +137,7 @@ footer {
     box-shadow: 5px 5px 5px 5px black;
 }
 
-.btn.btn-outline-light, .btn.btn-outline-light:hover, :focus, :active {
+span a.btn.btn-outline-light, span a.btn.btn-outline-light:hover, span a.btn.btn-outline-light:focus, span a.btn.btn-outline-light:active {
     background-color: transparent!important;
     border: none!important;
     box-shadow: none!important;
