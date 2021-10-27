@@ -102,6 +102,7 @@ div.card {
 #form {
     display: block;
     position: relative;
+    top: -100px;
 }
 
 .btn.btn-send {
@@ -131,17 +132,22 @@ div.card {
     font-size: 0.7rem;
 }
 
-/*===TICKETS===*/
+/*===ROW TICKETS===*/
 
 #tickets {
     display: block;
     position: relative;
-    top: 120px;
+    top: 130px;
 }
 
-.card-group.card {
-    border-width: 1.5px!important;
-    box-shadow: 0px 0px 0px 0px!important;
+div.container:nth-child(12) > div:nth-child(1) div.card { 
+    max-width: 15rem;
+    border-width: 2px!important;
+    box-shadow: none!important;
+}
+
+.card-title { 
+    font-weight: 550;
 }
 
 /*===FOOTER===*/

@@ -180,13 +180,13 @@
             <div class="row">
                 <div class="col">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+                        <input type="text" class="form-control" id="inputName" placeholder="Nombre" required>
                         <label for="inputName">Nombre</label>
                     </div>
                 </div>
                 <div class="col">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="inputSurname" placeholder="Apellido">
+                        <input type="text" class="form-control" id="inputSurname" placeholder="Apellido" required>
                         <label for="inputSurname">Apellido</label>
                     </div>
                 </div>
@@ -194,7 +194,7 @@
 
             <div class="form-floating">
                 <textarea class="form-control" placeholder="Sobre qué quieres hablar?" id="floatingTextBox"
-                    style="height: 150px"></textarea>
+                    style="height: 150px" required></textarea>
                 <label for="floatingTextBox">Sobre qué quieres hablar?</label>
                 <div id="commentHelpBlock" class="form-text">
                     Recuerda incluir un título para tu charla.
@@ -207,61 +207,60 @@
     <div id="tickets">
     </div>
 
-    <div class="container mt-5 mb-3 justify-content-center">
+    <div class="container mt-5 mb-1 justify-content-center">
         <div class="row justify-content-center">
-            <div class="card border-primary bg-transparent mx-2 my-2" style="max-width: 15rem; border-width: 2px;">
+            <div class="card border-primary rounded-0 bg-transparent mx-1 my-2">
                 <div class="card-body text-center">
-                    <p class="h4 card-title"><b>Estudiante</b></p>
-                    <p class="card-text" style="font-size: 1.7vmax;">Tienen un descuento</p>
-                    <p class="h5 card-text" style="font-size: 2vmax"><strong>80%</strong></p>
-                    <p style="color:grey; font-size: 1.5vmax"><small>* presentar documentación</small></p>
+                    <p class="h4 card-title py-1" style="font-size: 1.7vmax">Estudiante</p>
+                    <p class="card-text" style="font-size: 1.2vmax;">Tienen un descuento</p>
+                    <p class="h5 card-text py-1" style="font-size: 1.3vmax"><strong>80%</strong></p>
+                    <p style="color:grey; font-size: 1vmax"><small>* presentar documentación</small></p>
                 </div>
             </div>
-            <div class="card border-other bg-transparent mx-2 my-2"
-                style="max-width: 15rem; border-width: 2px; border-color:#c0e3e9">
+            <div class="card border-other rounded-0 bg-transparent mx-1 my-2" style="border-color:#c0e3e9">
                 <div class="card-body text-center">
-                    <p class="h4 card-title"><b>Trainee</b></p>
-                    <p class="card-text" style="font-size: 1.7vmax;">Tienen un descuento</p>
-                    <p class="h5 card-text" style="font-size: 2vmax"><strong>50%</strong></p>
-                    <p style="color:grey; font-size: 1.5vmax"><small>* presentar documentación</small></p>
+                    <p class="h4 card-title py-1" style="font-size: 1.7vmax">Trainee</p>
+                    <p class="card-text" style="font-size: 1.2vmax;">Tienen un descuento</p>
+                    <p class="h5 card-text py-1" style="font-size: 1.3vmax"><strong>50%</strong></p>
+                    <p style="color:grey; font-size: 1vmax"><small>* presentar documentación</small></p>
                 </div>
             </div>
-            <div class="card border-warning bg-transparent mx-2 my-2" style="max-width: 15rem; border-width: 2px;">
+            <div class="card border-warning rounded-0 bg-transparent mx-1 my-2">
                 <div class="card-body text-center">
-                    <p class="h4 card-title"><b>Junior</b></p>
-                    <p class="card-text" style="font-size: 1.7vmax;">Tienen un descuento</p>
-                    <p class="h5 card-text" style="font-size: 2vmax"><strong>15%</strong></p>
-                    <p style="color:grey; font-size: 1.5vmax"><small>* presentar documentación</small></p>
+                    <p class="h4 card-title py-1" style="font-size: 1.7vmax">Junior</p>
+                    <p class="card-text" style="font-size: 1.2vmax;">Tienen un descuento</p>
+                    <p class="h5 card-text py-1" style="font-size: 1.3vmax"><strong>15%</strong></p>
+                    <p style="color:grey; font-size: 1vmax"><small>* presentar documentación</small></p>
                 </div>
             </div>
         </div>
     </div>
 
 
-    <div class="col-12 text-center mt-3">
+    <div class="col-12 text-center mt-1">
         <h6>VENTA</h6>
         <h1>VALOR DE TICKET $200</h1>
     </div>
 
-    <div class="container my-3 col-md-6 justify-content-center mt-3 mb-3">
+    <div class="container my-3 col-md-6 justify-content-center">
         <form id="form-tickets">
             <div class="row">
                 <div class="col">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="inputNameBuyer" placeholder="Nombre">
+                        <input type="text" class="form-control" id="inputNameBuyer" placeholder="Nombre" required>
                         <label for="inputNameBuyer">Nombre</label>
                     </div>
                 </div>
                 <div class="col">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="inputSurnameBuyer" placeholder="Apellido">
+                        <input type="text" class="form-control" id="inputSurnameBuyer" placeholder="Apellido" required>
                         <label for="inputSurnameBuyer">Apellido</label>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="inputMailBuyer" placeholder="Correo">
+                    <input type="email" class="form-control" id="inputMailBuyer" placeholder="Correo" required>
                     <label for="inputMailBuyer">Correo</label>
                 </div>
             </div>
@@ -269,7 +268,7 @@
                 <div class="col">
                     <div class="form mb-3">
                         <label for="inputQuantity" class="form-label mb-2">Cantidad</label>
-                        <input type="number" min="0" step="1" class="form-control" id="inputQuantity" placeholder="Cantidad">
+                        <input type="number" min="0" step="1" class="form-control" id="inputQuantity" placeholder="Cantidad" required>
                     </div>
                 </div>
                 <div class="col">
@@ -285,7 +284,7 @@
             </div>
             <div class="col">
                 <div class="form mt-3 mb-3">
-                    <p disabled type="text" class="form-control p-3" style="background-color: #a3d7f2;"  id="totalTickets"></p>
+                    <p disabled type="text" class="form-control p-3" style="background-color: #a3d7f2;"  id="totalTickets">Total a Pagar: $</p>
                 </div>
             </div>
             <div class="row pt-3">
